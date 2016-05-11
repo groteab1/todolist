@@ -1,0 +1,87 @@
+h1
+{
+	text-align: center;
+	font-size: 50px;
+    padding-top:10px;
+    font-family: "Lucida Console", Monaco, monospace;
+    color: #B8A23E;
+    margin-top: 0;
+}
+body{
+   background: green;
+}
+
+enteredmenu {
+   width: 100%;
+   overflow: hidden;
+   position: relative;
+}
+#centeredmenu ul {
+   clear: left;
+   float: left;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   left: 50%;
+   text-align: center;
+  
+}
+#centeredmenu ul li {
+   display: block;
+   float: left;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   right: 50%;
+}
+#centeredmenu ul li a {
+   display: block;
+   margin: 0 0 0 1px;
+   padding: 3px 10px;
+   color: #B8A23E;
+   text-decoration: none;
+   line-height: 1.3em;
+   font-size: 18px;
+}
+#centeredmenu ul li a:hover {
+   background: #19550D;
+   color: #B8A23E;
+
+}
+#centeredmenu ul li a.active,
+#centeredmenu ul li a.active:hover {
+   color: #19550D;
+   background:#19550D ;
+   font-weight: bold;
+}
+body 
+{
+   margin:0;
+
+}
+.wrapper{
+   position:relative;
+   top: -10px;
+}
+@media (max-width:500px){
+#centeredmenu li
+{
+    list-style-type: none;
+    width: 125%;
+    height: 100%; 
+    position: fixed; 
+    overflow: auto; 
+}
+header{
+   height: 250px;
+}
+}
+input{
+    display: block;
+}
+button{
+    position: relative;
+    top: 10px;
+}
